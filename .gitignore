@@ -1,0 +1,15 @@
+*.i
+*.o
+*.o.d
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+build/
+build-*/*
+.vscode/
+.idea/
+.DS_Store
+cmake-build-debug/
+cmake-build-release/
