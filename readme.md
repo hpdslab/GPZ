@@ -1,3 +1,5 @@
+# GPZ
+
 GPZ is a high-performance, error-bounded lossy compressor designed specifically for large-scale particle data on modern GPUs. GPZ employs a novel four-stage parallel pipeline that synergistically balances high compression efficiency with the architectural demands of massively parallel hardware.
 
 ## Environment Requirements
@@ -118,7 +120,7 @@ When `-t` is used, the following parameters are also **required**, since metadat
 ./gpz -d -o merged_xyz.f32.gpz.compressed -r merged_xyz.f32.gpz.reconstructed -t bitcomp -p 3 -f 32 -n 83953207 -e 0.2999999821
 
 # decompress with verification
-./gpz -d -o merged_xyz.f32.gpz.compressed -r merged_xyz.f32.gpz.reconstructed -v merged_xyz.f32 -t bitcomp -p 3 -f 32 -n 143735721 -e 1e-4
+./gpz -d -o merged_xyz.f32.gpz.compressed -r merged_xyz.f32.gpz.reconstructed -v merged_xyz.f32 -t bitcomp -p 3 -f 32 -n 83953207 -e 1e-4
 ```
 
 </details>
