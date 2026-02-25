@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
-# Must be set before project() so CUDA compiler detection sees it
+# change based on the GPU arch
 set(CMAKE_CUDA_ARCHITECTURES 70 75 80 86 89 90)
 
 # Project name and languages
