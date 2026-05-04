@@ -143,6 +143,8 @@ __[ICS'26]__ GPZ: GPU-Accelerated Lossy Compressor for Particle Data
     title={GPZ: GPU-Accelerated Lossy Compressor for Particle Data},
     author={Li, Ruoyu and Huang, Yafan and Zhang, Longtao and Yang, Zhuoxun and Di, Sheng and Zhang, Boyuan and Huang, Jiajun and Liu, Jinyang and Tian, Jiannan and Li, Guanpeng and Song, Fengguang and Guo, Hanqi and Cappello, Franck and Zhao, Kai},
     booktitle={Proceedings of the ACM International Conference on Supercomputing},
-    year={2026}
+    year={2026},
+    doi = {10.1145/3797905.3800524},
+    url = {https://doi.org/10.1145/3797905.3800524}
 }
 ```
